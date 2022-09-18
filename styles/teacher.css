@@ -1,0 +1,131 @@
+#teacherControlls {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: 400;
+    padding: 10px;
+    padding-bottom: 50px;
+    display: none;
+}
+#teacherControlls .title {
+    background-color: royalblue;
+    margin: -10px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+#createNewCource {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid royalblue;
+}
+#newCourcePrompt,#newCourceItemPrompt {
+    padding-top: 25vh;
+    height: 100VH;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.397);
+    position: fixed;
+    top: 0px;
+    left: -100vw;
+    z-index: 1000;
+    text-align: center;
+}
+#newCourcePrompt input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    min-width: 80vw;
+    box-shadow: 0px 0px 5px rgb(177, 177, 177);
+    border-radius: 5px;
+}
+#newCourcePrompt button {
+    margin: 10px;
+    border-radius: 5px;
+}
+#cancel_new_cource {
+    border: 2px solid rgb(201, 201, 201);
+    padding: 5px;
+    background-color: white;
+}
+#create_new_cource {
+    background-color: royalblue;
+    color: white;
+    border: 2px solid skyblue;
+    padding: 5px;
+}
+#newCourcePrompt textarea {
+    padding: 5px;
+    height: 50px;
+    width: 80vw;
+    border: none;
+    border: 2px solid rgb(170, 170, 170);
+}
+#newCourcePrompt form {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.mycource {
+    background-color: royalblue;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+#edit_cource {
+    position: fixed;
+    top: 0px;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: white;
+    text-align: center;
+}
+#edit_cource_items {
+    background-color: aliceblue;
+    height: 80vh;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+#edit_cource button {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+#add_cource_item {
+    background-color: royalblue;
+    color: white;
+}
+#edit_cource_okay {
+    background-color: green;
+    color: white;
+}
+#new_cource_item_form {
+    background-color: white;
+    margin: 10px;
+    padding: 50px 0px;
+    border-radius: 5px;
+}
+.cancel,.okay {
+    border: none;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#new_cource_item_form .cancel,#new_cource_item_form .okay, #upload_item {
+    margin-top: 20px;
+    padding: 7px 20px;
+}
+#new_cource_item_form .okay {
+    background-color: green;
+    color: white;
+}
+#new_courcce_name {
+    border: none;
+}

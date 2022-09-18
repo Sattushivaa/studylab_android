@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: icons;
+    src: url(../fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2);
+    text-emphasis: none;
+    font-style: normal;
+    font-weight: bold;
+}
+i {
+    font-family: icons;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: royalblue;
+}
+.cursive {
+    font-family: cursive;
+}

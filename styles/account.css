@@ -1,0 +1,44 @@
+#my_account_page {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: -100vw;
+    top: 0px;
+    background-color: white;
+    z-index: 400;
+    text-align: center;
+    padding-top: 25px;
+}
+#new_courcce_name {
+    border: none;
+}
+#signout {
+    padding: 7px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(255, 83, 83);
+    border: none;
+    border-radius: 5px;
+}
+#my_image {
+    margin: 20px 0px;
+    max-width: 100px;
+    border-radius: 50px;
+}
+#refresh {
+    padding: 7px;
+    margin: 10px;
+    color: black;
+    background: lightblue;
+    border: none;
+    border-radius: 5px;
+}
+#about_link {
+    background-color: royalblue;
+    padding: 5px;
+    text-emphasis: none;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: block;
+}
