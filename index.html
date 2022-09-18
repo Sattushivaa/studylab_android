@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/teacher.css">
+    <link rel="stylesheet" href="styles/account.css">
+</head>
+
+<body>
+
+    <div id="loader"><br><br><br><br><br><br><br><br>
+        <img src="assets/LOADING....gif" width="100" alt="loading">
+    </div>
+
+    <div id="login">
+        <h1>StudyLab</h1>
+        where students love to learn
+        <img class="students_pic" src="assets/students.png" alt="">
+        login or signup to continue <br>
+        <button id="login_btn">login</button>
+        <button id="signup_btn">signup</button>
+    </div>
+
+    <form id="login_form">
+        <button id="closeLoginForm"><i>close</i></button>
+        <h1>login here</h1><br><br>
+        <i>person</i>
+        <input type="text" name="username" id="login_username" placeholder="username"><br>
+        <i>lock</i>
+        <input type="password" placeholder="password" id="login_password" name="password"><br><br><br><br>
+        <button id="login_form_submit">Login</button>
+    </form>
+
+    <form id="signup_form">
+        <button id="closeSignupForm"><i>close</i></button>
+        <h1>signup here</h1><br>
+        <i>person</i>
+        <input type="text" name="" placeholder="name" id="signup_name"><br>
+        <i>phone</i>
+        <input type="text" name="" placeholder="username" id="signup_username"><br>
+        <i>person</i>
+        <input type="text" name="" placeholder="password" id="signup_password"><br>
+        <input type="radio" name="role" id="roll_student"> i am a student <br>
+        <input type="radio" name="role" id="roll_teacher"> i am a teacher
+        <section id="teachers_signup_input">
+            <input type="text" placeholder="school_name" id="signup_schoolname">
+        </section><br>
+        <button id="signup_form_submit">Signup</button>
+    </form>
+
+    <header>
+        <span id="menu_btn"><i>menu</i>
+            <div class="menu">
+                <a id="about_link" href="https://sattushivaa.github.io/satyam-bharti/">About us</a>
+            </div>
+        </span>
+        <input type="search" name="" placeholder="search any cource,teacher" id="search_inp">
+        <i id="search-btn">search</i>
+        <!-- <button id="clear_search"><i>close</i></button> -->
+
+    </header>
+
+    <div id="courceDetails">
+        <div id="about_cource">
+            <h2 class="cource_name"></h2><br>
+            <span class="cource_author"></span><br>
+            <button id="cutcource"><i>close</i></button><br>
+            <button id="bookmark_btn"><i>bookmark_outlined</i> Bookmark</button>
+        </div>
+        <div id="courceItems"></div>
+    </div>
+
+    <div id="action_suggestion"><br>
+        <h2>learn with <span class="blue cursive"> StudyLab </span> </h2><br>
+        <img src="assets/writing_girl.gif" alt="">
+        <div id="search_english">English</div>
+        <div id="search_science">Science</div>
+        <div id="search_maths">Mathematics</div>
+        <div id="search_hindi">Hindi</div>
+        <div id="search_sst">SST</div>
+    </div>
+
+    <div id="search-result"></div>
+    
+    <div id="contentBox">
+        <h2 id="contentName"></h2>
+        <div id="content"></div>
+        <br>
+        <button><i>done</i> finish</button>
+    </div>
+
+    <div id="teacherControlls">
+        <h2 class="title">my cources</h2><br>
+        <button id="createNewCource">new cource</button>
+        <section id="myCourcesListBox">
+
+        </section>
+    </div>
+
+    <div id="newCourcePrompt">
+        <form id="new_cource_form">
+            <input placeholder="cource name" type="text" name="" id="new_courcce_name"><br>
+            <textarea placeholder="enter a description" id="new_cource_description" cols="30" rows="10"></textarea><br>
+            <input type="text" placeholder="enter space separated a list of tags " id="new_cource_tags"><br>
+            <button id="cancel_new_cource">cancel</button>
+            <button id="create_new_cource">Create</button>
+        </form>
+    </div>
+
+    <div id="edit_cource">
+        <h2>cource name</h2>
+        <DIV id="edit_cource_items"></DIV><br>
+        <button id="cancel_edit_cource">cancel</button>
+        <button id="add_cource_item">add item</button>
+        <button id="edit_cource_okay">okay</button>
+    </div>
+
+    <div id="my_account_page">
+        <br><br><br>
+        <h2 id="my_name">hello satyam</h2>
+        <img id="my_image" src="assets/images.png" alt=""><br>
+        <button id="refresh"> <i>refresh</i> refresh</button>
+        <button id="signout"> <i>logout</i> sign out</button>
+    </div>
+
+    <div id="newCourceItemPrompt">
+        <div id="new_cource_item_form">
+            <input type="text" id="new_item_name" placeholder="enter a item name"><br>
+            Type : <select value="text" id="contentType">
+                <option value="text">text</option>
+                <option value="image">image</option>
+                <option value="video">video</option>
+                <option value="note">note</option>
+            </select><br>
+            <input style="display: none;" type="file" id="fileUpload">
+            <span id="file_name"></span>
+            <button id="upload_item"><i>upload</i> upload</button><br>
+            <button class="cancel">cancel</button>
+            <button class="okay">add</button>
+        </div>
+    </div>
+
+    <div id="bookmarks">
+        
+    </div>
+
+    <br><br><br><br>
+    <menu id="mainmenu">
+        <button id="account_btn"><i>person</i></button>
+        <button id="home"><i>home</i></button>
+        <!-- <button id="bookmarked"><i>bookmark</i></button> -->
+        <button id="teacher_access"><i>book</i></button>
+    </menu>
+
+    <script src="scripts/init.js"></script>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/cources.js"></script>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/teacher.js"></script>
+</body>
+
+</html>
